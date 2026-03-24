@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "MuJoCoUE",
+	"Description": "a UE support for MuJoCo to Linux",
+	"Category": "Other",
+	"CreatedBy": "Ahmad Afaneh -  Adapted by Daniela Hernandez to Linux",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"EnabledByDefault": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "MuJoCoUE",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
