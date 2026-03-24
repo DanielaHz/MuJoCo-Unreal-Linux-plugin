@@ -1,6 +1,6 @@
 # MuJoCo Unreal Engine Plugin
 
-This plugin integrates MuJoCo physics engine with Unreal Engine, allowing you to load MuJoCo XML files directly into Unreal Engine and run advanced physics simulations.
+This plugin integrates MuJoCo physics engine with Unreal Engine, allowing you to load MuJoCo XML files directly into Unreal Engine.
 
 ## Features
 
@@ -14,9 +14,6 @@ This plugin integrates MuJoCo physics engine with Unreal Engine, allowing you to
 
 ![Simulation Demo](https://cdn.loom.com/sessions/thumbnails/ec26c892b5014a03afb7d016b2d4b4d5-88ba2fce00140e4d-full-play.gif)
 
-![Simulation Demo 2](https://cdn.loom.com/sessions/thumbnails/c750fc543f3548208ad88d14b0447251-beb5032d0c1cdf27-full-play.gif)
-
-![Simulation Demo 3](https://cdn.loom.com/sessions/thumbnails/81d84c9a8565465199aae22d4d5e627c-47d9ea28f3266022-full-play.gif)
 ## Installation
 
 1. Clone this repository to your Unreal Engine project's `Plugins` folder
