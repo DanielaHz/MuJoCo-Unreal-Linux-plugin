@@ -12,7 +12,7 @@ This plugin integrates MuJoCo physics engine with Unreal Engine, allowing you to
 
 ## Demo
 
-![Simulation Demo]("/Assets/MuJoCo-Unreal-Demo.mp4")
+![Simulation Demo](Assets/MuJoCo-Unreal-Demo.gif)
 
 ## Installation
 
