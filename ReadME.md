@@ -1,14 +1,12 @@
 # MuJoCo Unreal Engine Plugin
 
-This plugin integrates MuJoCo physics engine with Unreal Engine, allowing you to load MuJoCo XML files directly into Unreal Engine.
+This plugin allows you to load MuJoCo XML files directly into Unreal Engine 5.6.1 on Linux.
+It currently uses MuJoCo 3.3.0.
 
-## Features
+## Goal
 
-- Load MuJoCo XML files into Unreal Engine
-- Run MuJoCo simulations and display results in real-time
-- Support for procedural mesh generation for non-primitive MuJoCo shapes
-- Import object colors from MuJoCo models
-- Multiple simultaneous simulation instances support
+Fully integrate MuJoCo into Unreal Engine by separating responsibilities:
+use MuJoCo for physically accurate simulation, and Unreal Engine for real‑time, photorealistic rendering.
 
 ## Demo
 
@@ -33,9 +31,4 @@ This plugin integrates MuJoCo physics engine with Unreal Engine, allowing you to
 - **Z key**: Hold to run simulation, release to pause
 - **R key**: Reset simulation to initial state
 - **C key**: Test MuJoCo actuators control (sets Actuator 0 to a small value, useful for testing models like car.xml)
-
-## Current Limitations
-
-- Texture support is not yet implemented (only colors are imported)
-- It is still rough and not optimized for performance
 
