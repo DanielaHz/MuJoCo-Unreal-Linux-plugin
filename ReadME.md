@@ -50,3 +50,5 @@ Rider is so far the best IDE to work with UE projects!! I higly recommend it.
 - **R key**: Reset simulation to initial state
 - **C key**: Test MuJoCo actuators control (sets Actuator 0 to a small value, useful for testing models like car.xml)
 
+
+I've been reading some papers on photorealistic simulation for robotics and noticed researchers are combining MuJoCo, for its deterministic physics, with Unreal Engine to generate high-fidelity training data for autonomous robots. Interestingly, there's no clean open source implementation of this for Linux and UE5. Do you think that kind of pipeline could add value for the robots All3 is building?
