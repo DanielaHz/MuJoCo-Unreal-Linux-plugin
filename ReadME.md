@@ -13,7 +13,7 @@ Replace the XML-first authoring workflow with a native UE experience — users c
 Robotics simulation, reinforcement learning environments, digital twins, and any application that requires both physically accurate simulation and photorealistic real-time rendering.
 
 ## MuJoCo Architecture 
-
+```
 MuJoCo
 ├── XML (Scene)
 │   └── MJCF compiler → mjModel (static)
@@ -22,7 +22,7 @@ MuJoCo
 ├── mjModel  (input - what was loaded)
 ├── mjData   (output - live state per step)
 └── mj_step() (the integrator)
-
+```
 ## Demo (XML File rendering)
 
 ![Simulation Demo](Assets/MuJoCo-Unreal-Demo.gif)
